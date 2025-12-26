@@ -1,31 +1,27 @@
 [project]
-name = "ml-learning"
+name="ml-learning-project" 
 version = "0.1.0"
-description = "Ml base learning"
+description = "base ml"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Mihaill_Mel_mac",email = "MichaelMelnikov@yandex.ru"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
+packages = []
 dependencies = [
     "pandas (>=2.3.3,<3.0.0)",
     "numpy (>=2.4.0,<3.0.0)",
     "scikit-learn (>=1.8.0,<2.0.0)",
     "matplotlib (>=3.10.8,<4.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "plotly (>=6.5.0,<7.0.0)"
+    "plotly (>=6.5.0,<7.0.0)",
+    "jupyterlab (>=4.5.1,<5.0.0)",
+    "ipython (>=9.8.0,<10.0.0)",
+    "pytest (>=9.0.2,<10.0.0)"
 ]
-
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[dependency-groups]
-dev = [
-    "black (>=25.12.0,<26.0.0)",
-    "flake8 (>=7.3.0,<8.0.0)",
-    "pytest (>=9.0.2,<10.0.0)",
-    "jupyter (>=1.1.1,<2.0.0)",
-    "ipykernel (>=7.1.0,<8.0.0)"
-]

@@ -1,2 +1,6 @@
 # ML Learning Project
-Проект для изучения машинного обучения
+
+Machine learning experiments and projects.
+
+## Setup
+
