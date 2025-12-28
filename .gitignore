@@ -1,3 +1,6 @@
+ml_mipt/
+python_mipt/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -77,3 +80,8 @@ Thumbs.db
 # Временные файлы
 *.tmp
 *.temp
+
+#data 
+.csv
+.mat
+.pptx
