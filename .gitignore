@@ -82,6 +82,5 @@ Thumbs.db
 *.temp
 
 #data 
-.csv
 .mat
 .pptx
