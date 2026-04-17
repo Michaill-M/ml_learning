@@ -1,5 +1,5 @@
 [project]
-name="ml-learning-project" 
+name="hw_ml2"
 version = "0.1.0"
 description = "base ml"
 authors = [
@@ -19,7 +19,9 @@ dependencies = [
     "ipython (>=9.8.0,<10.0.0)",
     "pytest (>=9.0.2,<10.0.0)",
     "kagglehub (>=1.0.0,<2.0.0)",
-    "ipywidgets (>=8.1.8,<9.0.0)"
+    "ipywidgets (>=8.1.8,<9.0.0)",
+    "nltk (>=3.9.4,<4.0.0)",
+    "textaugment (>=3.0.0,<4.0.0)"
 ]
 [tool.poetry]
 package-mode = false
